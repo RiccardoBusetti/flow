@@ -1,9 +1,10 @@
 # flow
 Flow is a simple framework that is inspired by Java Streams, RxJava and Kotlin Flows, that offers a simple
-api for working with cold streams of data.
+api for working with cold streams of data. A cold stream of data differs from the hot variant because the data
+is generated within the flow.
 
-The streams of data are evaluated **lazily**, meaning that only via a collector
-you can start consuming the data. It is important to note that flow can only by
+The streams are evaluated **lazily**, meaning that only via a collector
+you can start consuming the data. It is important to note that a flow can be
 collected only **once**.
 
 *This project was made for experimenting with framework
